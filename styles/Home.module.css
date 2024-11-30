@@ -1,0 +1,36 @@
+.header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #007BFF, #00A9F4);
+    color: white;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
