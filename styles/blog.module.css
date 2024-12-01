@@ -1,0 +1,38 @@
+.container {
+    padding: 2rem;
+    text-align: center;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.post {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+.post h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.post p {
+    margin: 0 0 1rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.post small {
+    color: #888;
+    font-size: 0.875rem;
+}
